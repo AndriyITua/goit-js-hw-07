@@ -87,7 +87,7 @@ h2 {
 
 /* task-3 */
 
-input {
+body input {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
@@ -131,7 +131,7 @@ label {
   color: #2e2f42;
 }
 
-input {
+label input {
   border: 1px solid #808080;
   border-radius: 4px;
   width: 360px;
@@ -161,6 +161,71 @@ button {
 
 /* task-5 */
 
+.widget {
+  max-width: 345px;
+  padding: 100px 0px;
+  text-align: center;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.back-color {
+  margin: 0px 0px 16px 0px;
+  
+  /* text */
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.change-color {
+  width: 148px;
+  margin: 0px;
+  justify-content: center;
+
+  /* text */
+  font-family: var(--font-family);
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
 
 /* task-6 */
+
+#controls {
+  width: 486px;
+  height: 104px;
+  background-color: #F6F6FE;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+#controls input {
+  width: 150px;
+  height: 40px;
+  margin: 32px 16px 32px 32px;
+}
+
+#controls button {
+  width: 120px;
+  height: 40px;
+  margin: 32px 16px 32px 0px;
+}
+
+#boxes {
+  width: 486px;
+  height: 160px;
+  display: flex;
+  padding: 32px;
+  background-color: #F6F6FE;
+}
+
+#boxes .box {
+  margin-right: 16px;
+}
 
