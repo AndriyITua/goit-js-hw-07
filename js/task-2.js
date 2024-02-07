@@ -30,9 +30,8 @@ const images = [
 
 const gallery = document.querySelector('.gallery');
 
-images.forEach(obj => {
-  const li = document.createElement('li');
-  li.innerHTML = `<img class="img" src="${obj.url}" alt="${obj.alt}">`
-  gallery.append(li);
-})
-
+let html = '';
+images.forEach(image => {
+  html += `<li><img class="img" src="${image.url}" alt="${image.alt}"></li>`;
+});
+gallery.innerHTML = html;
